@@ -53,7 +53,7 @@ p
   #Cover
   {
     background-color: #343f54;
-    background-image: url(../Images/TitlePage1.jpg);
+    background-image: url(../TitlePage1.jpg);
 		background-position: center center;
 		background-size: cover;
     min-height: 100vh;
@@ -63,7 +63,7 @@ p
       #Cover .Logo
       {
         width: 12rem;
-        opacity: 50%;
+        /* opacity: 50%; */
       }
 
       .nav-item
