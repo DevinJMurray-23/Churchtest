@@ -1,0 +1,598 @@
+
+
+body
+{
+  background-color: #303b4c;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+
+  /* cursor: default;
+         line-height: 1;
+         margin: 0; */
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+
+
+h1, h2, h3, h4, h5, h6
+{
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+p
+{
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+.MajorTitle
+{
+  color: #303b4c;
+  font-family: fave-script-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+  .container-fluid
+  {
+    padding: 3% 10%;
+  }
+
+  .container-fluid-large
+  {
+    padding: 5% 10%;
+  }
+
+/******************** COVER PAGE ********************/
+
+  #Cover
+  {
+    background-color: #343f54;
+    background-image: url(../Images/TitlePage1.jpg);
+		background-position: center center;
+		background-size: cover;
+    min-height: 100vh;
+    position: relative;
+	 }
+
+      #Cover .Logo
+      {
+        width: 12rem;
+        opacity: 50%;
+      }
+
+      .nav-item
+      {
+        padding: 0 18px 0 0;
+        /* color: #fff; */
+      }
+
+            .nav-item:last-child
+            {
+              padding: 0;
+            }
+
+            .nav-item:hover
+            {
+              color: red;
+            }
+
+            .navbar .nav-item:hover .nav-link
+            {
+              color: #f9ba29;
+            }
+
+
+      /* .colorX
+      {
+        color: white;
+      } */
+
+      .nav-link
+      {
+        font-size: 1rem;
+        padding: 15px;
+        color: #fff;
+      }
+
+
+      .dropdown-menu
+      {
+        background-color: #465778;
+      }
+
+      .dropdown-menu:hover
+      {
+        background-color: #465778;
+      }
+
+      .dropdown-item
+      {
+        color: #fff;
+        font-weight: 300;
+      }
+
+      .dropdown-item:hover
+      {
+        color: #465778;
+      }
+
+
+      .active:hover
+      {
+        color: red;
+      }
+
+      .title
+      {
+        padding: 25% 0 0 0;
+        text-align: center;
+      }
+
+      .btn
+      {
+        padding: 1rem 2.25rem;
+        border-radius: 0px  ;
+      }
+
+      .MajorTitle-image
+      {
+        width: 90%;
+        padding-bottom: 1rem;
+      }
+      /* #Cover h1
+      {
+        color: white;
+        font-family: fave-script-pro,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 8rem;
+      } */
+
+      .carousel-item
+      {
+        /* width: inherit; */
+        height: 110px;
+      }
+
+          .carousel-item h5
+          {
+            font-size: 1rem;
+            font-weight: 300;
+          }
+
+          .carouselEvent, .carouselLocation
+          {
+            background-color: #343f54;
+            color: #ffffff;
+            padding: 1.75rem 2rem;
+            /* opacity: 70%; */
+            text-align: left;
+          }
+
+
+          .carousel-control-next
+          {
+            background-color: #343f54;
+            color: #ffffff;
+            /* padding: 1.75rem 2rem; */
+            /* opacity: 70%; */
+            /* text-align: left; */
+          }
+
+          .carouselArrow .fas
+          {
+            color: #ffffff;
+            /* padding: 1.75rem 2rem; */
+            /* opacity: 70%; */
+            /* text-align: left; */
+          }
+
+
+
+            .carouselEvent
+            {
+            padding-right: 2rem;
+            }
+
+           .carouselLocation
+          {
+            /* opacity: 70%; */
+
+          }
+
+
+          .carouselDate
+          {
+              /* padding: 2rem; */
+              background-color: #142dad;
+              padding: 1.2rem .75rem;
+              /* padding-left: 2rem;
+              padding-right: 2rem; */
+          }
+
+          .carouselDate h5, h6
+          {
+            font-size: 2rem;
+            font-weight: 200;
+            color: white;
+          }
+
+          .carouselDate h6
+          {
+            font-weight: 300;
+          }
+
+
+
+
+/******************** OUR PURPOSE ********************/
+  #OurPurpose
+  {
+    background-color: white;
+  }
+
+      .OurPurpose-image
+      {
+        /* padding: .1rem; */
+        /* width: 100%; */
+        width: 100%;
+        padding: 0rem;
+        /* max-height: 100%; */
+      }
+
+      .OurPurpose-text
+      {
+        text-align: left;
+      }
+
+      .OurPurpose-MajorTitle-image
+      {
+        width: 60%;
+      }
+
+      #OurPurpose h2
+      {
+        font-size: 6rem;
+      }
+
+      #OurPurpose p
+      {
+        color: #848fa2;
+        font-size: .9rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+      }
+
+      #OurPurpose .download-button
+      {
+        font-size: .95rem;
+        background-color: #142dad;
+        border-color: #142dad;
+        padding: 1.25rem 3.25rem;
+      }
+
+            #OurPurpose .download-button:hover
+            {
+              background-color: #05217a;
+              border-color: #05217a;
+            }
+
+
+/******************** UPCOMING EVENTS ********************/
+  #UpcomingEvents
+  {
+    background-color: #bbc0c9;
+  }
+
+      .UpcomingEvents-MajorTitle-image
+      {
+        width: 60%;
+        padding-bottom: 2rem;
+      }
+
+      #UpcomingEvents h2
+      {
+        font-size: 6.5rem;
+      }
+
+      .UpcomingEvents-images
+      {
+        padding-bottom: 1rem;
+      }
+
+          .UpcomingEvents-images img
+          {
+            width: 100%;
+            padding: 0rem;
+          }
+
+      #UpcomingEvents .download-button
+      {
+        font-size: .95rem;
+        background-color: #142dad;
+        border-color: #142dad;
+        padding: 1.25rem 3.5rem;
+      }
+
+            #UpcomingEvents .download-button:hover
+            {
+              background-color: #05217a;
+              border-color: #05217a;
+            }
+
+
+/******************** UPCOMING EVENTS ********************/
+  #WhiteSpace
+  {
+    background-color: white;
+  }
+
+
+/******************** HELPFUL LINKS ********************/
+  #HelpfulLinks
+  {
+    background-color: #576777;
+    color: white;
+    text-align: left;
+    font-weight: 100;
+  }
+
+      #HelpfulLinks h3
+      {
+        font-weight: 200;
+      }
+
+      #HelpfulLinks a
+      {
+        color: white;
+        font-size: 1.1rem;
+      }
+
+      #HelpfulLinks p
+      {
+        font-size: 1.1rem;
+      }
+
+      #HelpfulLinks img
+      {
+        /* width: 3rem; */
+        /* width: */
+      }
+
+      .HelpfulLinks-Contacts li
+      {
+        list-style: none;
+        padding: 3px 0px;
+      }
+
+      .HelpfulLinks-Contacts p
+      {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+      }
+
+      .ChangeHeading ul
+      {
+        padding-top: 1rem;
+        color: #f9ba29;
+      }
+
+          .ChangeHeading ul li
+          {
+            padding-bottom: 1rem;
+          }
+
+      .TextSection
+      {
+        padding-left: 1rem;
+      }
+
+      .test1 h5
+      {
+        font-size: 1rem;
+        font-weight: 300;
+      }
+
+      .test1 p
+      {
+        font-size: 1rem;
+        font-weight: 100;
+      }
+
+      .test1 img
+      {
+        padding-bottom: 1.5rem;
+      }
+
+/******************** GO TO TOP BUTTON ********************/
+
+    .goToTopBtn
+    {
+      background-color: #f9ba29;
+      color: #303b4c;
+      font-size: 22px;
+      line-height: 50px;
+      position: fixed;
+      text-align: center;
+      text-decoration: none;
+
+      width: 50px;
+      height: 50px;
+      bottom: 40px;
+      right: 50px;
+    }
+
+
+/******************** FOOTER ********************/
+
+  #footer
+  {
+    background-color: #343f54;
+  }
+
+      #footer img
+      {
+        width: 35%;
+        padding: 0rem;
+      }
+
+      .footer-left
+      {
+        color: #909bad;
+        font-size: .8rem;
+        opacity: 70%;
+        padding-top: 1rem;
+        text-align: left;
+      }
+
+      .footer-right
+      {
+        text-align: right;
+        padding-right: 1rem;
+      }
+
+      .footer-right ul li
+      {
+        display: inline-block;
+        padding-right: 10px;
+      }
+
+          .footer-right ul li:last-child
+          {
+            padding-right: 0;
+          }
+
+      .fa
+      {
+        background-color: #f9ba29;
+        color: #343f54;
+        padding: .75rem;
+        font-size: 1.35rem;
+      }
+
+          .fa-facebook
+          {
+            /* font-size: 1.2rem; */
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
+
+          .fa-instagram
+          {
+            font-size: 1.65rem;
+            padding-top: .5rem;
+            /* padding: .4rem .6rem .6rem; */
+          }
+
+          .fa-youtube-play
+          {
+            /* font-size: 1.2rem; */
+            /* padding: .75rem; */
+          }
+
+
+/***********************************************************/
+/******************** RESPONSIVE DESIGN ********************/
+/***********************************************************/
+
+
+/******************** X-Large Page  ********************/
+  /* @media screen and (max-width: 1680px)
+  {
+
+  } */
+
+  @media (max-width: 500px)
+  {
+    body
+    {
+      text-align: center;
+    }
+
+    #Cover h1
+    {
+      font-size: 5.5rem;
+      padding-top: 50%;
+    }
+
+    .title
+    {
+      padding: 30% 0 0 0;
+    }
+
+
+    .MajorTitle-image
+    {
+      width: 100%;
+    }
+
+    .carousel-item
+    {
+      /* width: inherit; */
+      height: 110px;
+    }
+
+    .OurPurpose-MajorTitle-image
+    {
+      padding: 1rem;
+      width: 80%;
+    }
+
+    .OurPurpose-text
+    {
+      text-align: center;
+    }
+
+    .UpcomingEvents-MajorTitle-image
+    {
+      width: 80%;
+      padding-bottom: 1rem;
+    }
+
+      #UpcomingEvents h2
+      {
+        font-size: 5rem;
+      }
+
+          #UpcomingEvents .UpcomingEvents-images:first-child
+          {
+            padding-top: 0rem;
+          }
+
+
+    #HelpfulLinks
+    {
+      padding: 3rem ;
+    }
+
+  #footer
+  {
+    text-align: center;
+  }
+
+      #footer img
+      {
+        width: 90%;
+        padding: 0rem;
+      }
+
+      .footer-left
+      {
+        text-align: center;
+        font-size: .6rem;
+        opacity: 40%;
+      }
+
+      .footer-right
+      {
+        text-align: center;
+        padding-right: 3rem;
+      }
+
+  }
